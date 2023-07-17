@@ -140,6 +140,17 @@ nav .fa {
   display: none;
 }
 
+
+.filter{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin: 0px 0px 0px;
+  background-color: rgb(88, 159, 225);
+  padding: 1%;
+}
+
+
 @media(max-width:700px) {
   .text-box h1 {
       font-size: 20px;

@@ -41,7 +41,7 @@
        <div class="nav-links" id="navLinks">
 
         
-     <input type="search" value="search" class="search">
+     <!-- <input type="search" placeholder="search" class="search"> -->
            <i class="fa fa-times" onclick="hideMenu()"></i>
 
            <ul>
@@ -64,7 +64,18 @@
 
 </div>
 
-<div class="head">
+<!-- filters -->
+
+<div class="filter">
+  <input type="search" placeholder="state">
+  <input type="search" placeholder="city">
+  <input type="search" placeholder="product">  &nbsp;
+  <a href="#head"><button type="button" class="btn btn-dark"> Search</button></a>
+</div>
+
+
+
+<div class="head" id="head">
   <h1>Shops</h1>
 </div>
 <!-- Sellers profiles -->
@@ -79,12 +90,12 @@
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Seller 1</h1>
             <p class="mb-8 leading-relaxed">Welcome to my shop Everyone <br> Hope You Will like the products in our shop and waiting for your enrty in the shop <br> to experience the products in your hands .</p>
             <div class="flex justify-center">
-              <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Contact Info</button>
+              <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"><a href="">Contact Info</a></button>
             </div>
           </div>
         </div>
       </section>
-</section>
+    </section>
     
 
 
@@ -92,16 +103,21 @@
       <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-wrap -m-4">
+
             <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a class="block relative h-48 rounded overflow-hidden">
+              <a class="block relative h-48 rounded overflow-hidden" href="products.html">
                 <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="/login/2p.jpeg">
               </a>
               <div class="mt-4">
-                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Electronics</h3>
+                <a href="products.html">
+                  <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Electronics</h3>
                 <h2 class="text-gray-900 title-font text-lg font-medium">Headphones</h2>
                 <p class="mt-1">$16.00</p>
+                </a>
+                
               </div>
             </div>
+
             <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
               <a class="block relative h-48 rounded overflow-hidden">
                 <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="/login/1p.jpeg">
@@ -352,6 +368,7 @@
       </section>
       
       </div>
-
+   
+  </body>
   
-    </html>
+</html>

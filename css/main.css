@@ -146,3 +146,11 @@ body {
   text-align: Top;
 
 }
+
+.whoru{
+    size: 33px;
+    display:flex; 
+  flex-direction:rows;
+  
+    
+}
